@@ -3,7 +3,7 @@ use strict;
 
 system("git add .");
 
-print "Input comment on modifications made";
+print "Input comment on modifications made:\n";
 
 my $comment=<STDIN>;
 chomp($comment);
